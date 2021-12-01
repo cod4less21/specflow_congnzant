@@ -2,7 +2,6 @@
 using JECognizantProject.Pages;
 using NUnit.Framework;
 using System;
-using System.Threading;
 using TechTalk.SpecFlow;
 using TechTalk.SpecFlow.Assist;
 
@@ -25,7 +24,6 @@ namespace JECognizantProject.StepDefinitions
         public void GivenIAmOnAutomationpracticePage()
         {
             homePage.NavigateTosite();
-            Thread.Sleep(5000);
         }
 
         [When(@"I choose item '(.*)' and select size as '(.*)' from dropDown, colour '(White|Black)'")]
@@ -125,6 +123,5 @@ namespace JECognizantProject.StepDefinitions
         {
             homePage.ClickSignOutbtn();
         }
-
     }
 }

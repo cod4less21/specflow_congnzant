@@ -2,7 +2,6 @@
 using JECognizantProject.Drivers;
 using JECognizantProject.Extensions;
 using OpenQA.Selenium;
-using System;
 using System.Threading;
 
 namespace JECognizantProject.Pages
